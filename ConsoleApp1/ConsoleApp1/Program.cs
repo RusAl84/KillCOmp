@@ -6,7 +6,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Kill your computer");
+            int x = 20;
+            //
+            
+
+                for (int i = 1; i <= x; i++)
+                {
+                    Console.WriteLine("Beep number {0}.", i);
+                    Console.Beep();
+                }
+
+
         }
     }
 }
